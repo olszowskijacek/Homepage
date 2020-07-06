@@ -1,0 +1,29 @@
+.tableContainer {
+    overflow-x: auto;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tableCaption {
+    caption-side: bottom;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.tableRow {
+    background-color: white;
+}
+.tableRow:nth-child(even) {
+    background-color: #eee;
+}
+.tableHeader {
+    background-color: teal;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+.tableCell {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}

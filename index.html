@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/table.css">
     <script src="main.js" defer></script>
     <title>Jacek Olszowski</title>
 </head>
 
 <body class="container">
     <h1 class="header">Jacek Olszowski</h1>
+    <h2 class="subHeader">Interakcja</h2>
+    <p>
+        <button class="changeBgc">Zmień kolor tła!</button>
+    </p>
     <img height="300" src="./images/Jacek_Olszowski.jpg" alt="Jacek Olszowski">
-    <h2 class="subHeader">o moich zainteresowaniach...</h2>
+    <h2 class="subHeader">O moich zainteresowaniach...</h2>
     <p>
         <strong>Moją największą pasją jest gra na perkusji.</strong> Nie tak dawno temu miałem nawet własną kapelę.
         Niestety w wyniku wielu losowych sytuacji aktualnie pozostają mi samodzielne ćwiczenia. Graliśmy muzykę z
@@ -28,10 +33,43 @@
         Co ciekawe, krótko po skończeniu studiów stwierdziłem że chyba jednak minąłem się z powołaniem, postanowiłem
         rozpocząć naukę <em>programowania</em>. Więcej o przebiegu mojej edukacji w kierunku Frontendu opiszę wkrótce...
     </p>
-    <h2 class="subHeader">Interakcja</h2>
-    <p>
-        <button class="changeBgc">Zmiana tła strony</button>
-    </p>
+    <div class="tableContainer">
+        <table class="table">
+            <caption class="tableCaption">Ulubione zespoły muzyczne</caption>
+            <tbody>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="col">l.p</th>
+                    <th class="tableCell tableHeader" scope="col">Nazwa zespołu</th>
+                    <th class="tableCell tableHeader" scope="col">Ulubiona piosenka</th>
+                </tr>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader">1</th>
+                    <td class="tableCell">Iron Maiden</td>
+                    <td class="tableCell">Blood Brothers</td>
+                </tr>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader">2</th>
+                    <td class="tableCell">Green Day</td>
+                    <td class="tableCell"> Holiday</td>
+                </tr>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader">3</th>
+                    <td class="tableCell">Łydka Grubasa</td>
+                    <td class="tableCell">Gender</td>
+                </tr>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader">4</th>
+                    <td class="tableCell">Alice in Chain</td>
+                    <td class="tableCell">Man in the Box</td>
+                </tr>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader">5</th>
+                    <td class="tableCell">Budka Suflera</td>
+                    <td class="tableCell">Takie tango</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 </body>
 

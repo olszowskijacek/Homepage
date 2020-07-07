@@ -1,0 +1,19 @@
+.navList {
+    padding-left: 0;
+    padding-bottom: 15px;
+    list-style: none;
+    border-bottom: 2px solid #d33d3d;
+}
+.navItem {
+    margin: 10px 0;
+}
+a {
+    color: #d33d3d;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+a:hover {
+    padding-left: 10px;
+    color: #db1111;
+}

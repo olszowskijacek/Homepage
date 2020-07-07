@@ -32,3 +32,16 @@ img {
     border-radius: 50%;
     box-shadow: 2px 2px 15px 2px black;
 }
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: #d33d3d;
+    color: white;
+    font-size: 20px;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.button:hover {
+    transform: scale(1.1);
+}

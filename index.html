@@ -11,66 +11,76 @@
 </head>
 
 <body class="container">
-    <h1 class="header">Jacek Olszowski</h1>
-    <h2 class="subHeader">Interakcja</h2>
-    <p>
-        <button class="changeBgc">Zmień kolor tła!</button>
-    </p>
-    <img height="300" src="./images/Jacek_Olszowski.jpg" alt="Jacek Olszowski">
-    <h2 class="subHeader">O moich zainteresowaniach...</h2>
-    <p>
-        <strong>Moją największą pasją jest gra na perkusji.</strong> Nie tak dawno temu miałem nawet własną kapelę.
-        Niestety w wyniku wielu losowych sytuacji aktualnie pozostają mi samodzielne ćwiczenia. Graliśmy muzykę z
-        gatunku <i>hard-rock</i>.
-        <br>
-        Poza grą na perkusji interesuję się również <b>windsurfingiem</b> oraz <b>wpinaczką</b>. Wolne chwile staram się
-        spędzać na rowerze lub przy komputerze - <em>programując</em>
-    </p>
-    <h2 class="subHeader">Wykształcenie</h2>
-    <p>Wiosną, 2019 ukończyłem studia na Politechnice Poznańskiej, studiowałem Mechanikę i Budowę Maszyn. Aktualnie
-        pracuję jako operator maszyn CNC, co jest zgodne z kierunkiem mojej edukacji.
-        <br>
-        Co ciekawe, krótko po skończeniu studiów stwierdziłem że chyba jednak minąłem się z powołaniem, postanowiłem
-        rozpocząć naukę <em>programowania</em>. Więcej o przebiegu mojej edukacji w kierunku Frontendu opiszę wkrótce...
-    </p>
-    <div class="tableContainer">
-        <table class="table">
-            <caption class="tableCaption">Ulubione zespoły muzyczne</caption>
-            <tbody>
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader" scope="col">l.p</th>
-                    <th class="tableCell tableHeader" scope="col">Nazwa zespołu</th>
-                    <th class="tableCell tableHeader" scope="col">Ulubiona piosenka</th>
-                </tr>
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader">1</th>
-                    <td class="tableCell">Iron Maiden</td>
-                    <td class="tableCell">Blood Brothers</td>
-                </tr>
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader">2</th>
-                    <td class="tableCell">Green Day</td>
-                    <td class="tableCell"> Holiday</td>
-                </tr>
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader">3</th>
-                    <td class="tableCell">Łydka Grubasa</td>
-                    <td class="tableCell">Gender</td>
-                </tr>
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader">4</th>
-                    <td class="tableCell">Alice in Chain</td>
-                    <td class="tableCell">Man in the Box</td>
-                </tr>
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader">5</th>
-                    <td class="tableCell">Budka Suflera</td>
-                    <td class="tableCell">Takie tango</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
+    <header id="header">
+        <h1 class="header">Jacek Olszowski</h1>
+        <h2 class="subHeader">Interakcja</h2>
+        <p>
+            <button class="changeBgc">Zmień kolor tła!</button>
+        </p>
+        <img height="300" src="./images/Jacek_Olszowski.jpg" alt="Jacek Olszowski">
+    </header>
+    <section id="about">
+        <h2 class="subHeader">O moich zainteresowaniach...</h2>
+        <p>
+            <strong>Moją największą pasją jest gra na perkusji.</strong> Nie tak dawno temu miałem nawet własną kapelę.
+            Niestety w wyniku wielu losowych sytuacji aktualnie pozostają mi samodzielne ćwiczenia. Graliśmy muzykę z
+            gatunku <i>hard-rock</i>.
+            <br>
+            Poza grą na perkusji interesuję się również <b>windsurfingiem</b> oraz <b>wpinaczką</b>. Wolne chwile staram
+            się
+            spędzać na rowerze lub przy komputerze - <em>programując</em>
+        </p>
+    </section>
+    <section id="education">
+        <h2 class="subHeader">Wykształcenie</h2>
+        <p>Wiosną, 2019 ukończyłem studia na Politechnice Poznańskiej, studiowałem Mechanikę i Budowę Maszyn. Aktualnie
+            pracuję jako operator maszyn CNC, co jest zgodne z kierunkiem mojej edukacji.
+            <br>
+            Co ciekawe, krótko po skończeniu studiów stwierdziłem że chyba jednak minąłem się z powołaniem, postanowiłem
+            rozpocząć naukę <em>programowania</em>. Więcej o przebiegu mojej edukacji w kierunku Frontendu opiszę
+            wkrótce...
+        </p>
+    </section>
+    <section id="table">
+        <div class="tableContainer">
+            <table class="table">
+                <caption class="tableCaption">Ulubione zespoły muzyczne</caption>
+                <tbody>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader" scope="col">l.p</th>
+                        <th class="tableCell tableHeader" scope="col">Nazwa zespołu</th>
+                        <th class="tableCell tableHeader" scope="col">Ulubiona piosenka</th>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader">1</th>
+                        <td class="tableCell">Iron Maiden</td>
+                        <td class="tableCell">Blood Brothers</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader">2</th>
+                        <td class="tableCell">Green Day</td>
+                        <td class="tableCell"> Holiday</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader">3</th>
+                        <td class="tableCell">Łydka Grubasa</td>
+                        <td class="tableCell">Gender</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader">4</th>
+                        <td class="tableCell">Alice in Chain</td>
+                        <td class="tableCell">Man in the Box</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader">5</th>
+                        <td class="tableCell">Budka Suflera</td>
+                        <td class="tableCell">Takie tango</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer id="footer">Jacek Olszowski</footer>
 </body>
 
 </html>

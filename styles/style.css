@@ -16,10 +16,19 @@ html {
 .lightBackground {
     background-color: #eee;
 }
+.head {
+   text-align: center;
 
+}
 .header {
     color: #d33d3d;
 }
 .subHeader {
     color: #332424;
+}
+img {
+    height: 340px;
+    width: 270px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px 2px black;
 }
